@@ -1,8 +1,8 @@
-# 智能Agent系统
+# Agent系统
 
-这是一个基于Spring Boot的智能Agent系统，能够调用内置工具和MCP工具来执行各种任务。
+调用内置工具和MCP工具来执行各种任务。
 
-## 🏗️ 架构设计
+##  架构设计
 
 ```
 src/main/java/com/example/springai/neww/
@@ -60,7 +60,7 @@ curl http://localhost:8080/api/agent/tools
 curl http://localhost:8080/api/agent/health
 ```
 
-## 🔧 可用工具
+## 可用工具
 
 ### 内置工具
 
@@ -111,7 +111,7 @@ Agent：当前时间: 2024-01-15 14:30:25
 Agent：北京 当前天气：晴朗，温度 15°C，湿度 45%
 ```
 
-## 🎯 特性
+## 特性
 
 - ✅ 模块化架构，易于扩展
 - ✅ 支持内置工具和MCP工具
